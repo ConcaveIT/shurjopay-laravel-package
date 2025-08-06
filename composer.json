@@ -1,9 +1,9 @@
 {
-    "name": "smukhidev/shurjopay-laravel-package",
+    "name": "dits/shurjopay-laravel-package",
     "authors": [
         {
-            "name": "Sanaullah Asif",
-            "email": "shurjopay@shurjomukhi.com.bd"
+            "name": "Dhaka It Solution Ltd.",
+            "email": "dev@dhakaitsolutions.com"
         }
     ],
     "minimum-stability": "dev",

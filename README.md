@@ -7,7 +7,7 @@
 1. **Install via Composer**
 
     ```bash
-    composer require smukhidev/shurjopay-laravel-package
+    composer require dits/shurjopay-laravel-package
     ```
 
 2. **Register the Service Provider** (if not auto-discovered)
@@ -15,13 +15,13 @@
     In `config/app.php` providers array:
 
     ```php
-    smukhidev\ShurjopayLaravelPackage\ShurjopayServiceProvider::class,
+    dits\ShurjopayLaravelPackage\ShurjopayServiceProvider::class,
     ```
 
 3. **Publish the Configuration File**
 
     ```bash
-    php artisan vendor:publish --provider="smukhidev\\ShurjopayLaravelPackage\\ShurjopayServiceProvider" --tag=config
+    php artisan vendor:publish --provider="dits\\ShurjopayLaravelPackage\\ShurjopayServiceProvider" --tag=config
     ```
 
     This will create `config/shurjopay.php` in your project.
@@ -42,7 +42,7 @@
 1. **Import the Service**
 
     ```php
-    use smukhidev\ShurjopayLaravelPackage\ShurjopayService;
+    use dits\ShurjopayLaravelPackage\ShurjopayService;
     ```
 
 2. **Initiate Payment**
