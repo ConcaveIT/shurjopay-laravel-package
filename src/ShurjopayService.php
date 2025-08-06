@@ -1,6 +1,6 @@
 <?php
 
-namespace smukhidev\ShurjopayLaravelPackage;
+namespace dits\ShurjopayLaravelPackage;
 
 class ShurjopayService
 {

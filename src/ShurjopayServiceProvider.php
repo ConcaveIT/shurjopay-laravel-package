@@ -1,6 +1,6 @@
 <?php
 
-namespace smukhidev\ShurjopayLaravelPackage;
+namespace dits\ShurjopayLaravelPackage;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
