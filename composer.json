@@ -1,0 +1,19 @@
+{
+    "name": "smukhidev/shurjopay-laravel-package",
+    "authors": [
+        {
+            "name": "Sanaullah Asif",
+            "email": "shurjopay@shurjomukhi.com.bd"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShurjopayLaravelPackage\\": "src"
+        }
+
+    }
+}
