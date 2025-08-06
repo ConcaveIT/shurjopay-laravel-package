@@ -86,11 +86,11 @@
       "spCode": "000",
       "spCodeDes": "Cancel",
       "custom1": "Shurjomukhi Ltd",
-      "custom2": "nazmus.shahadat@shurjomukhi.com.bd",
-      "custom3": "Nazmus Shahadat",
-      "custom4": "01829616787",
+      "custom2": "xxxx@shurjomukhi.com.bd",
+      "custom3": "xxx xxx",
+      "custom4": "01711111111",
       "paymentOption": "CARD",
-      "paymentTime": "2021-06-16 02:18:51"
+      "paymentTime": "2025-06-16 05:10:50"
     }
     ```
 
