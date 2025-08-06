@@ -1,19 +1,25 @@
 {
-    "name": "dits/shurjopay-laravel-package",
-    "authors": [
-        {
-            "name": "Dhaka IT Solutions Ltd.",
-            "email": "dev@dhakaitsolutions.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "ShurjopayLaravelPackage\\": "src"
-        }
-
+  "name": "dits/shurjopay-laravel-package",
+  "authors": [
+    {
+      "name": "Dhaka IT Solutions Ltd.",
+      "email": "dev@dhakaitsolutions.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dits\\ShurjopayLaravelPackage\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dits\\ShurjopayLaravelPackage\\ShurjopayServiceProvider"
+      ]
+    }
+  }
 }
