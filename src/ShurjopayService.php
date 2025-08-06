@@ -70,5 +70,4 @@ class ShurjopayService
         print_r($response);
 
     }
-},
-,,,
+}
