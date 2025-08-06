@@ -49,7 +49,7 @@ class ShurjopayService
             'paymentterm' => '', //Tenure Months like 3,6,12,18,36
             'minimumamount' => '', //Minimum Amount 10000
             'totalAmount' => $amount,
-            'is_emi'=>$reqdata['is_emi'] //0 NO EMI 1 EMI True
+            'is_emi'=>$reqdata['is_emi'], //0 NO EMI 1 EMI True
             'paymentOption' => 'shurjopay',
             'returnURL' => $return_url,
         );
