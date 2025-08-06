@@ -41,10 +41,10 @@ class ShurjopayService
             'merchantPass' => $this->merchant_password,
             'userIP' => $this->client_ip,
             'uniqID' => $this->tx_id,
-            'custom1' => $reqdata['custom1'],
-            'custom2' => $reqdata['custom2'],
-            'custom3' => $reqdata['custom3'],
-            'custom4' => $reqdata['custom4'],
+            'custom1' => $reqdata['custom1'] ?? '',
+            'custom2' => $reqdata['custom2'] ?? '',
+            'custom3' => $reqdata['custom3'] ?? '',
+            'custom4' => $reqdata['custom4'] ?? '',
             //'school' => $reqdata['amount'],
             'paymentterm' => '', //Tenure Months like 3,6,12,18,36
             'minimumamount' => '', //Minimum Amount 10000
