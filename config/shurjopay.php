@@ -4,4 +4,5 @@ return [
     'merchant_username' => env('MERCHANT_USERNAME'),
     'merchant_password' => env('MERCHANT_PASSWORD'),
     'merchant_key_prefix' => env('MERCHANT_KEY_PREFIX'),
+    'http_timeout' => env('SHURJOPAY_HTTP_TIMEOUT', 15), // Default timeout in seconds
 ];
